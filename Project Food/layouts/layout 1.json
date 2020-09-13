@@ -27,11 +27,98 @@
 					},
 					"world": {
 						"x": 300.0454545454546,
-						"y": 100.74999791925606,
+						"y": 201.65908882834697,
 						"width": 602.7272727272726,
-						"height": 200,
+						"height": 401.8181818181818,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "FoodPit",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 7,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 279.01515151515144,
+						"y": 29.763865407699736,
+						"width": 140.90909090909088,
+						"height": 54.18181818181813,
+						"originX": 0.5333333333333333,
+						"originY": 0.5254237288135594,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "FoodPit2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 8,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 410.65151515151507,
+						"y": 27.729967102615042,
+						"width": 130,
+						"height": 64.18181818181819,
+						"originX": 0.5333333333333333,
+						"originY": 0.5254237288135594,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "FoodPit3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 9,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 153.92424242424244,
+						"y": 25.865560322954014,
+						"width": 119.0909090909091,
+						"height": 62.363636363636346,
+						"originX": 0.5333333333333333,
+						"originY": 0.5254237288135594,
 						"color": [
 							1,
 							1,
@@ -84,8 +171,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 343.68181818181813,
-						"y": 185.74999791925597,
+						"x": 311.8636363636363,
+						"y": 383.0227251919833,
 						"width": 89.09090909090907,
 						"height": 19.090909090909122,
 						"originX": 0.5,
@@ -113,8 +200,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 337.0772179627601,
-						"y": 122.49853164359621,
+						"x": 317.0772179627601,
+						"y": 349.77125891632346,
 						"width": 34.45454545454544,
 						"height": 39.81818181818184,
 						"originX": 0.5180722891566265,
@@ -130,7 +217,7 @@
 					}
 				},
 				{
-					"type": "Wall",
+					"type": "GoalWall",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -142,8 +229,37 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 527.3181818181819,
-						"y": 138.4772706465286,
+						"x": 491.86363636363643,
+						"y": 341.2045433738014,
+						"width": 20,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "GoalWall2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 6,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 90.9545454545455,
+						"y": 343.02272519198334,
 						"width": 20,
 						"height": 120,
 						"originX": 0.5,
@@ -188,7 +304,7 @@
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 600,
-	"height": 200,
+	"height": 400,
 	"unboundedScrolling": false,
 	"eventSheet": "Event sheet 1"
 }

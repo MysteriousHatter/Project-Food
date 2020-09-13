@@ -29,7 +29,11 @@
 			"Background",
 			"Player",
 			"Ball",
-			"Wall"
+			"GoalWall",
+			"GoalWall2",
+			"FoodPit",
+			"FoodPit2",
+			"FoodPit3"
 		],
 		"subfolders": []
 	},

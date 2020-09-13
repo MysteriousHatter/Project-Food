@@ -1,0 +1,57 @@
+{
+	"name": "FoodPit3",
+	"plugin-id": "Sprite",
+	"sid": 524682936412025,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 240,
+						"height": 236,
+						"originX": 0.5333333333333333,
+						"originY": 0.5254237288135594,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7312089,
+						"collisionPoly": {
+							"points": [
+								0.15,
+								0.15254237288135594,
+								0.5,
+								0,
+								0.8583333333333333,
+								0.13983050847457626,
+								0.9958333333333333,
+								0.5,
+								0.8583333333333333,
+								0.8559322033898306,
+								0.5,
+								0.9957627118644068,
+								0.14583333333333334,
+								0.847457627118644,
+								0.008333333333333333,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 875452781375077,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
