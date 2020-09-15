@@ -66,10 +66,10 @@
 				{
 					"id": "set-angle-of-motion",
 					"objectClass": "Ball",
-					"sid": 167835029184606,
+					"sid": 929311374090647,
 					"behaviorType": "Bullet",
 					"parameters": {
-						"angle": "random(45)"
+						"angle": "random(360)"
 					}
 				}
 			],
@@ -95,6 +95,33 @@
 				}
 			],
 			"sid": 408180443792852
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 952460900665691,
+					"parameters": {
+						"interval-seconds": "4.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 810586552795194,
+					"parameters": {
+						"object-to-create": "Ball",
+						"layer": "0",
+						"x": "random(137,458)",
+						"y": "0"
+					}
+				}
+			],
+			"sid": 599891586383967
 		}
 	],
 	"sid": 587282074195441
