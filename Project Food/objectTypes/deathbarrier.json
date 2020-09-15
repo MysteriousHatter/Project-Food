@@ -1,40 +1,29 @@
 {
-	"name": "Player",
+	"name": "DeathBarrier",
 	"plugin-id": "Sprite",
-	"sid": 579230607305028,
+	"sid": 861463030385883,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 339165038752682
-		},
-		{
-			"behaviorId": "bound",
-			"name": "BoundToLayout",
-			"sid": 467639626927547
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 120,
-						"height": 30,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3511986,
+						"imageSpriteId": 6867012,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 356216520648538,
+				"sid": 410116382061949,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

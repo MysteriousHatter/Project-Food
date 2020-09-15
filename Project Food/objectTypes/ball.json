@@ -4,7 +4,23 @@
 	"sid": 278273920813475,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 747824612212246
+		},
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 764746689271627
+		},
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 479627289160121
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -18,7 +34,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2924367,
+						"imageSpriteId": 9178513,
 						"collisionPoly": {
 							"points": [
 								0.10240963855421689,

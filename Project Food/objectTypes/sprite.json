@@ -1,19 +1,21 @@
 {
-	"name": "Player",
+	"name": "Sprite",
 	"plugin-id": "Sprite",
-	"sid": 579230607305028,
+	"sid": 836075639201745,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "isWall",
+			"type": "boolean",
+			"desc": "",
+			"sid": 712646782559892
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 339165038752682
-		},
-		{
-			"behaviorId": "bound",
-			"name": "BoundToLayout",
-			"sid": 467639626927547
+			"sid": 904583719724526
 		}
 	],
 	"effectTypes": [],
@@ -22,19 +24,19 @@
 			{
 				"frames": [
 					{
-						"width": 120,
-						"height": 30,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3511986,
+						"imageSpriteId": 8862791,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 356216520648538,
+				"sid": 548416120314262,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

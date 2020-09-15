@@ -15,6 +15,46 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r210.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r210.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r210.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "Bound to layout",
+			"author": "Scirra",
+			"version": "r210.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r210.2",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "toon",
 			"name": "Toon",
@@ -33,7 +73,11 @@
 			"GoalWall2",
 			"FoodPit",
 			"FoodPit2",
-			"FoodPit3"
+			"FoodPit3",
+			"Mouse",
+			"DeathBarrier",
+			"Sprite",
+			"Text"
 		],
 		"subfolders": []
 	},
@@ -197,7 +241,7 @@
 		"enhancedAccelerationPrecision": true,
 		"cordovaiOSScheme": "app"
 	},
-	"viewportWidth": 320,
-	"viewportHeight": 180,
+	"viewportWidth": 600,
+	"viewportHeight": 400,
 	"firstLayout": null
 }
