@@ -223,7 +223,7 @@
 								"acceleration": 0,
 								"gravity": 0,
 								"bounce-off-solids": true,
-								"set-angle": false,
+								"set-angle": true,
 								"step": false,
 								"enabled": true
 							}
