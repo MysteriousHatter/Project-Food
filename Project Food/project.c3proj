@@ -76,10 +76,22 @@
 			"FoodPit3",
 			"Mouse",
 			"DeathBarrier",
+<<<<<<< Updated upstream
 			"Walls",
 			"GoalArea",
 			"Text",
 			"Text2"
+=======
+			"Sprite",
+			"Text",
+			"Blocks",
+			"Blocks2",
+			"Blocks3",
+			"Blocks4",
+			"Blocks5",
+			"Blocks6",
+			"Blocks7"
+>>>>>>> Stashed changes
 		],
 		"subfolders": []
 	},
