@@ -242,7 +242,11 @@
 						"x": 296.3636363636364,
 						"y": 401.8636363636365,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						"width": 650,
+=======
+						"width": 604.5454545454545,
+>>>>>>> Stashed changes
 =======
 						"width": 604.5454545454545,
 >>>>>>> Stashed changes
@@ -260,6 +264,7 @@
 					}
 				},
 				{
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 					"type": "GoalWall2",
 					"properties": {
@@ -335,6 +340,8 @@
 				{
 					"type": "Sprite",
 =======
+=======
+>>>>>>> Stashed changes
 					"type": "Walls",
 >>>>>>> Stashed changes
 					"properties": {
@@ -537,7 +544,11 @@
 					}
 				},
 				{
+<<<<<<< Updated upstream
 					"type": "Blocks4",
+=======
+					"type": "Sprite",
+>>>>>>> Stashed changes
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -545,6 +556,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
+<<<<<<< Updated upstream
 					"uid": 15,
 					"instanceVariables": {},
 					"behaviors": {},
@@ -587,6 +599,23 @@
 						"y": 260,
 						"width": 72,
 						"height": 24,
+=======
+					"uid": 5,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 297.27272727272737,
+						"y": 74.59090909090912,
+						"width": 100.90909090909093,
+						"height": 33.636363636363654,
+>>>>>>> Stashed changes
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -600,7 +629,11 @@
 					}
 				},
 				{
+<<<<<<< Updated upstream
 					"type": "Blocks6",
+=======
+					"type": "Sprite",
+>>>>>>> Stashed changes
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -608,6 +641,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
+<<<<<<< Updated upstream
 					"uid": 17,
 					"instanceVariables": {},
 					"behaviors": {},
@@ -619,6 +653,10 @@
 =======
 					"uid": 5,
 					"instanceVariables": {},
+=======
+					"uid": 6,
+					"instanceVariables": {},
+>>>>>>> Stashed changes
 					"behaviors": {
 						"Solid": {
 							"properties": {
@@ -626,6 +664,7 @@
 								"tags": ""
 							}
 						}
+<<<<<<< Updated upstream
 					},
 					"world": {
 						"x": 297.27272727272737,
@@ -667,6 +706,14 @@
 						"y": 68,
 						"width": 72,
 						"height": 24,
+=======
+					},
+					"world": {
+						"x": 56.363636363636374,
+						"y": 196.40909090909093,
+						"width": 100.90909090909093,
+						"height": 33.636363636363654,
+>>>>>>> Stashed changes
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -675,7 +722,7 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 0.7853981633974483,
 						"zElevation": 0
 					}
 				}
@@ -721,7 +768,11 @@
 			"overriden": 0,
 			"instances": [
 				{
+<<<<<<< Updated upstream
 					"type": "Background",
+=======
+					"type": "Sprite",
+>>>>>>> Stashed changes
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -729,6 +780,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
+<<<<<<< Updated upstream
 					"uid": 2,
 					"instanceVariables": {},
 					"behaviors": {},
@@ -748,6 +800,10 @@
 =======
 					"uid": 6,
 					"instanceVariables": {},
+=======
+					"uid": 7,
+					"instanceVariables": {},
+>>>>>>> Stashed changes
 					"behaviors": {
 						"Solid": {
 							"properties": {
@@ -755,6 +811,7 @@
 								"tags": ""
 							}
 						}
+<<<<<<< Updated upstream
 					},
 					"world": {
 						"x": 56.363636363636374,
@@ -837,6 +894,10 @@
 						}
 					},
 					"world": {
+=======
+					},
+					"world": {
+>>>>>>> Stashed changes
 						"x": 540.0000000000001,
 						"y": 202.7727272727273,
 						"width": 100.90909090909093,
@@ -856,7 +917,11 @@
 				},
 				{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					"type": "FoodPit3",
+=======
+					"type": "Sprite",
+>>>>>>> Stashed changes
 =======
 					"type": "Sprite",
 >>>>>>> Stashed changes
@@ -868,7 +933,11 @@
 						"live-preview": false
 					},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					"uid": 9,
+=======
+					"uid": 8,
+>>>>>>> Stashed changes
 =======
 					"uid": 8,
 >>>>>>> Stashed changes
@@ -882,6 +951,7 @@
 						}
 					},
 					"world": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 						"x": 153.92424242424244,
 						"y": 25.865560322954014,
@@ -1371,6 +1441,8 @@
 						"originX": 0,
 						"originY": 0,
 =======
+=======
+>>>>>>> Stashed changes
 						"x": 300.0000000000001,
 						"y": 258.22727272727275,
 						"width": 100.90909090909093,
