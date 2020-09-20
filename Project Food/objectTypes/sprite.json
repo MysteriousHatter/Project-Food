@@ -1,6 +1,7 @@
 {
 	"name": "Sprite",
 	"plugin-id": "Sprite",
+<<<<<<< Updated upstream
 	"sid": 836075639201745,
 	"isGlobal": false,
 	"instanceVariables": [
@@ -11,11 +12,20 @@
 			"sid": 712646782559892
 		}
 	],
+=======
+	"sid": 528013555597007,
+	"isGlobal": false,
+	"instanceVariables": [],
+>>>>>>> Stashed changes
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
+<<<<<<< Updated upstream
 			"sid": 904583719724526
+=======
+			"sid": 812298620102588
+>>>>>>> Stashed changes
 		}
 	],
 	"effectTypes": [],
@@ -31,12 +41,20 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
+<<<<<<< Updated upstream
 						"imageSpriteId": 8862791,
+=======
+						"imageSpriteId": 7529684,
+>>>>>>> Stashed changes
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
+<<<<<<< Updated upstream
 				"sid": 548416120314262,
+=======
+				"sid": 331588476417063,
+>>>>>>> Stashed changes
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

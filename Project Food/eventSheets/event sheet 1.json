@@ -187,11 +187,11 @@
 				{
 					"id": "is-between-values",
 					"objectClass": "System",
-					"sid": 104223119159831,
+					"sid": 135755945847845,
 					"parameters": {
 						"value": "Mouse.X",
-						"lower-bound": "147",
-						"upper-bound": "436"
+						"lower-bound": "8",
+						"upper-bound": "591"
 					}
 				}
 			],

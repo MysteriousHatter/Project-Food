@@ -80,6 +80,7 @@
 			"Walls",
 			"GoalArea",
 			"Text",
+<<<<<<< Updated upstream
 			"Text2"
 =======
 			"Sprite",
@@ -91,6 +92,17 @@
 			"Blocks5",
 			"Blocks6",
 			"Blocks7"
+>>>>>>> Stashed changes
+=======
+			"Text2",
+			"Block",
+			"Block2",
+			"Block3",
+			"Block4",
+			"Block5",
+			"Block6",
+			"Block7",
+			"Sprite"
 >>>>>>> Stashed changes
 		],
 		"subfolders": []

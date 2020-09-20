@@ -73,6 +73,67 @@
 			"overriden": 0,
 			"instances": [
 				{
+<<<<<<< Updated upstream
+=======
+					"type": "GoalArea",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 16,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 536.4090909090912,
+						"y": 16.36363636363636,
+						"width": 117.27272727272725,
+						"height": 20.909090909090907,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "GoalArea",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 15,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 53.59090909090929,
+						"y": 14.545454545454518,
+						"width": 95.4545454545455,
+						"height": 22.72727272727272,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+>>>>>>> Stashed changes
 					"type": "Player",
 					"properties": {
 						"initially-visible": true,
@@ -180,7 +241,11 @@
 					"world": {
 						"x": 296.3636363636364,
 						"y": 401.8636363636365,
+<<<<<<< Updated upstream
 						"width": 650,
+=======
+						"width": 604.5454545454545,
+>>>>>>> Stashed changes
 						"height": 10,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -195,6 +260,7 @@
 					}
 				},
 				{
+<<<<<<< Updated upstream
 					"type": "GoalWall2",
 					"properties": {
 						"initially-visible": true,
@@ -268,6 +334,9 @@
 				},
 				{
 					"type": "Sprite",
+=======
+					"type": "Walls",
+>>>>>>> Stashed changes
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -497,7 +566,11 @@
 					}
 				},
 				{
+<<<<<<< Updated upstream
 					"type": "Blocks5",
+=======
+					"type": "Sprite",
+>>>>>>> Stashed changes
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -505,6 +578,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
+<<<<<<< Updated upstream
 					"uid": 16,
 					"instanceVariables": {},
 					"behaviors": {},
@@ -542,6 +616,23 @@
 						"y": 284,
 						"width": 72,
 						"height": 24,
+=======
+					"uid": 5,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 297.27272727272737,
+						"y": 74.59090909090912,
+						"width": 100.90909090909093,
+						"height": 33.636363636363654,
+>>>>>>> Stashed changes
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -555,7 +646,11 @@
 					}
 				},
 				{
+<<<<<<< Updated upstream
 					"type": "Blocks7",
+=======
+					"type": "Sprite",
+>>>>>>> Stashed changes
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -563,6 +658,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
+<<<<<<< Updated upstream
 					"uid": 18,
 					"instanceVariables": {},
 					"behaviors": {},
@@ -649,6 +745,23 @@
 						"y": 201.65908882834697,
 						"width": 602.7272727272726,
 						"height": 401.8181818181818,
+=======
+					"uid": 6,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 56.363636363636374,
+						"y": 196.40909090909093,
+						"width": 100.90909090909093,
+						"height": 33.636363636363654,
+>>>>>>> Stashed changes
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -657,12 +770,16 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 0.7853981633974483,
 						"zElevation": 0
 					}
 				},
 				{
+<<<<<<< Updated upstream
 					"type": "FoodPit",
+=======
+					"type": "Sprite",
+>>>>>>> Stashed changes
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -672,6 +789,7 @@
 					},
 					"uid": 7,
 					"instanceVariables": {},
+<<<<<<< Updated upstream
 					"behaviors": {},
 					"world": {
 						"x": 279.01515151515144,
@@ -709,18 +827,39 @@
 						"height": 64.18181818181819,
 						"originX": 0.5333333333333333,
 						"originY": 0.5254237288135594,
+=======
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 540.0000000000001,
+						"y": 202.7727272727273,
+						"width": 100.90909090909093,
+						"height": 33.636363636363654,
+						"originX": 0.5,
+						"originY": 0.5,
+>>>>>>> Stashed changes
 						"color": [
 							1,
 							1,
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 2.356194490192345,
 						"zElevation": 0
 					}
 				},
 				{
+<<<<<<< Updated upstream
 					"type": "FoodPit3",
+=======
+					"type": "Sprite",
+>>>>>>> Stashed changes
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -728,10 +867,22 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
+<<<<<<< Updated upstream
 					"uid": 9,
+=======
+					"uid": 8,
+>>>>>>> Stashed changes
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
+<<<<<<< Updated upstream
 						"x": 153.92424242424244,
 						"y": 25.865560322954014,
 						"width": 119.0909090909091,
@@ -1219,6 +1370,14 @@
 						"height": 30,
 						"originX": 0,
 						"originY": 0,
+=======
+						"x": 300.0000000000001,
+						"y": 258.22727272727275,
+						"width": 100.90909090909093,
+						"height": 33.636363636363654,
+						"originX": 0.5,
+						"originY": 0.5,
+>>>>>>> Stashed changes
 						"color": [
 							1,
 							1,
