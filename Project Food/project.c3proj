@@ -76,10 +76,8 @@
 			"FoodPit3",
 			"Mouse",
 			"DeathBarrier",
-			"Walls",
-			"GoalArea",
-			"Text",
-			"Text2"
+			"Sprite",
+			"Text"
 		],
 		"subfolders": []
 	},
