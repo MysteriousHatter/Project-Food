@@ -1,7 +1,7 @@
 {
-	"name": "Wall",
+	"name": "Block6",
 	"plugin-id": "Sprite",
-	"sid": 847423414605286,
+	"sid": 211622025193629,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 40,
-						"height": 120,
+						"width": 250,
+						"height": 150,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1452466,
+						"imageSpriteId": 3407133,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 172391384066069,
+				"sid": 248848974020143,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

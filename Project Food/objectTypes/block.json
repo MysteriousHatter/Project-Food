@@ -1,10 +1,16 @@
 {
-	"name": "Blocks2",
+	"name": "Block",
 	"plugin-id": "Sprite",
-	"sid": 411790817733950,
+	"sid": 207054432326346,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 386909474092472
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -12,18 +18,18 @@
 				"frames": [
 					{
 						"width": 250,
-						"height": 120,
+						"height": 150,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6543169,
+						"imageSpriteId": 9376070,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 695499724347383,
+				"sid": 217129041838080,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

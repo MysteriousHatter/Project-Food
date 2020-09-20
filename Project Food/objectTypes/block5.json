@@ -1,7 +1,7 @@
 {
-	"name": "Blocks3",
+	"name": "Block5",
 	"plugin-id": "Sprite",
-	"sid": 455531571493694,
+	"sid": 314285955470507,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -12,18 +12,18 @@
 				"frames": [
 					{
 						"width": 250,
-						"height": 120,
+						"height": 150,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8208116,
+						"imageSpriteId": 6148048,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 318998588516086,
+				"sid": 401614152497135,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -71,29 +71,11 @@
 			"Ball",
 			"GoalWall",
 			"GoalWall2",
-			"FoodPit",
-			"FoodPit2",
-			"FoodPit3",
 			"Mouse",
 			"DeathBarrier",
-<<<<<<< Updated upstream
 			"Walls",
 			"GoalArea",
 			"Text",
-<<<<<<< Updated upstream
-			"Text2"
-=======
-			"Sprite",
-			"Text",
-			"Blocks",
-			"Blocks2",
-			"Blocks3",
-			"Blocks4",
-			"Blocks5",
-			"Blocks6",
-			"Blocks7"
->>>>>>> Stashed changes
-=======
 			"Text2",
 			"Block",
 			"Block2",
@@ -103,10 +85,6 @@
 			"Block6",
 			"Block7",
 			"Sprite"
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 		],
 		"subfolders": []
 	},

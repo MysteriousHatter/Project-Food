@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
 	"name": "Layout 1",
 	"layers": [
@@ -73,8 +72,6 @@
 			"overriden": 0,
 			"instances": [
 				{
-<<<<<<< Updated upstream
-=======
 					"type": "GoalArea",
 					"properties": {
 						"initially-visible": true,
@@ -120,930 +117,6 @@
 						"y": 14.545454545454518,
 						"width": 95.4545454545455,
 						"height": 22.72727272727272,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
->>>>>>> Stashed changes
-					"type": "Player",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 3,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
-						"BoundToLayout": {
-							"properties": {
-								"bound-by": "edge"
-							}
-						}
-					},
-					"world": {
-						"x": 311.8636363636363,
-						"y": 383.0227251919833,
-						"width": 89.09090909090907,
-						"height": 19.090909090909122,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Ball",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 4,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
-						"Bullet": {
-							"properties": {
-								"speed": 400,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": true,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						},
-						"BoundToLayout": {
-							"properties": {
-								"bound-by": "edge"
-							}
-						}
-					},
-					"world": {
-						"x": 301.6226725082146,
-						"y": 137.9530770981417,
-						"width": 35,
-						"height": 35,
-						"originX": 0.5180722891566265,
-						"originY": 0.4959677419354839,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "DeathBarrier",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 11,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 296.3636363636364,
-						"y": 401.8636363636365,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-						"width": 650,
-=======
-						"width": 604.5454545454545,
->>>>>>> Stashed changes
-=======
-						"width": 604.5454545454545,
->>>>>>> Stashed changes
-						"height": 10,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					"type": "GoalWall2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 6,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 46,
-						"y": 14,
-						"width": 26.398267159841417,
-						"height": 86.0787300816361,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 1.5732882134990054,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "GoalWall",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 5,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 553,
-						"y": 16,
-						"width": 23.98644239577678,
-						"height": 82.98458348037161,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 4.714324711609972,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite",
-=======
-=======
->>>>>>> Stashed changes
-					"type": "Walls",
->>>>>>> Stashed changes
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 12,
-					"instanceVariables": {
-						"isWall": true
-					},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": -1.8181818181817562,
-						"y": 192.3181818181818,
-						"width": 17.27272727272731,
-						"height": 423.6363636363636,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 13,
-					"instanceVariables": {
-						"isWall": true
-					},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 603.6363636363637,
-						"y": 195.50000000000006,
-						"width": 17.27272727272731,
-						"height": 423.6363636363636,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 14,
-					"instanceVariables": {
-						"isWall": true
-					},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 300.90909090909105,
-						"y": -2.2272727272727195,
-						"width": 633.6363636363634,
-						"height": 15.454545454545496,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Blocks",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 7,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 166,
-						"y": 92,
-						"width": 72,
-						"height": 24,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Blocks2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 8,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 509,
-						"y": 175,
-						"width": 72,
-						"height": 24,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Blocks3",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 9,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 41,
-						"y": 157,
-						"width": 72,
-						"height": 24,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-<<<<<<< Updated upstream
-					"type": "Blocks4",
-=======
-					"type": "Sprite",
->>>>>>> Stashed changes
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-<<<<<<< Updated upstream
-					"uid": 15,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 385,
-						"y": 226,
-						"width": 72,
-						"height": 24,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-<<<<<<< Updated upstream
-					"type": "Blocks5",
-=======
-					"type": "Sprite",
->>>>>>> Stashed changes
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-<<<<<<< Updated upstream
-					"uid": 16,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 169,
-						"y": 260,
-						"width": 72,
-						"height": 24,
-=======
-					"uid": 5,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 297.27272727272737,
-						"y": 74.59090909090912,
-						"width": 100.90909090909093,
-						"height": 33.636363636363654,
->>>>>>> Stashed changes
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-<<<<<<< Updated upstream
-					"type": "Blocks6",
-=======
-					"type": "Sprite",
->>>>>>> Stashed changes
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-<<<<<<< Updated upstream
-					"uid": 17,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 505,
-						"y": 284,
-						"width": 72,
-						"height": 24,
-=======
-					"uid": 5,
-					"instanceVariables": {},
-=======
-					"uid": 6,
-					"instanceVariables": {},
->>>>>>> Stashed changes
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-<<<<<<< Updated upstream
-					},
-					"world": {
-						"x": 297.27272727272737,
-						"y": 74.59090909090912,
-						"width": 100.90909090909093,
-						"height": 33.636363636363654,
->>>>>>> Stashed changes
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-<<<<<<< Updated upstream
-					"type": "Blocks7",
-=======
-					"type": "Sprite",
->>>>>>> Stashed changes
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-<<<<<<< Updated upstream
-					"uid": 18,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 395,
-						"y": 68,
-						"width": 72,
-						"height": 24,
-=======
-					},
-					"world": {
-						"x": 56.363636363636374,
-						"y": 196.40909090909093,
-						"width": 100.90909090909093,
-						"height": 33.636363636363654,
->>>>>>> Stashed changes
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0.7853981633974483,
-						"zElevation": 0
-					}
-				}
-			],
-			"sid": 404003492703023,
-			"effectTypes": [],
-			"isInitiallyVisible": true,
-			"color": [
-				1,
-				1,
-				1,
-				1
-			],
-			"backgroundColor": [
-				0,
-				0,
-				0,
-				1
-			],
-			"isTransparent": true,
-			"parallaxX": 1,
-			"parallaxY": 1,
-			"scaleRate": 1,
-			"forceOwnTexture": false,
-			"useRenderCells": false,
-			"blendMode": "normal",
-			"global": false
-		}
-	],
-	"sid": 668101849060758,
-	"nonworld-instances": [],
-	"effectTypes": [],
-	"width": 600,
-	"height": 400,
-	"unboundedScrolling": false,
-	"eventSheet": "Event sheet 1"
-=======
-{
-	"name": "Layout 1",
-	"layers": [
-		{
-			"name": "Background",
-			"overriden": 0,
-			"instances": [
-				{
-<<<<<<< Updated upstream
-					"type": "Background",
-=======
-					"type": "Sprite",
->>>>>>> Stashed changes
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-<<<<<<< Updated upstream
-					"uid": 2,
-					"instanceVariables": {},
-					"behaviors": {},
-					"effects": {
-						"Toon": {
-							"parameters": {
-								"threshold": 0.23800000000000004,
-								"levels": 7
-							}
-						}
-					},
-					"world": {
-						"x": 300.0454545454546,
-						"y": 201.65908882834697,
-						"width": 602.7272727272726,
-						"height": 401.8181818181818,
-=======
-					"uid": 6,
-					"instanceVariables": {},
-=======
-					"uid": 7,
-					"instanceVariables": {},
->>>>>>> Stashed changes
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-<<<<<<< Updated upstream
-					},
-					"world": {
-						"x": 56.363636363636374,
-						"y": 196.40909090909093,
-						"width": 100.90909090909093,
-						"height": 33.636363636363654,
->>>>>>> Stashed changes
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0.7853981633974483,
-						"zElevation": 0
-					}
-				},
-				{
-<<<<<<< Updated upstream
-					"type": "FoodPit",
-=======
-					"type": "Sprite",
->>>>>>> Stashed changes
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 7,
-					"instanceVariables": {},
-<<<<<<< Updated upstream
-					"behaviors": {},
-					"world": {
-						"x": 279.01515151515144,
-						"y": 29.763865407699736,
-						"width": 140.90909090909088,
-						"height": 54.18181818181813,
-						"originX": 0.5333333333333333,
-						"originY": 0.5254237288135594,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "FoodPit2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 8,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 410.65151515151507,
-						"y": 27.729967102615042,
-						"width": 130,
-						"height": 64.18181818181819,
-						"originX": 0.5333333333333333,
-						"originY": 0.5254237288135594,
-=======
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-=======
-					},
-					"world": {
->>>>>>> Stashed changes
-						"x": 540.0000000000001,
-						"y": 202.7727272727273,
-						"width": 100.90909090909093,
-						"height": 33.636363636363654,
-						"originX": 0.5,
-						"originY": 0.5,
->>>>>>> Stashed changes
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 2.356194490192345,
-						"zElevation": 0
-					}
-				},
-				{
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					"type": "FoodPit3",
-=======
-					"type": "Sprite",
->>>>>>> Stashed changes
-=======
-					"type": "Sprite",
->>>>>>> Stashed changes
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					"uid": 9,
-=======
-					"uid": 8,
->>>>>>> Stashed changes
-=======
-					"uid": 8,
->>>>>>> Stashed changes
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-						"x": 153.92424242424244,
-						"y": 25.865560322954014,
-						"width": 119.0909090909091,
-						"height": 62.36363636363635,
-						"originX": 0.5333333333333333,
-						"originY": 0.5254237288135594,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				}
-			],
-			"sid": 171991067587907,
-			"effectTypes": [],
-			"isInitiallyVisible": true,
-			"color": [
-				1,
-				1,
-				1,
-				1
-			],
-			"backgroundColor": [
-				1,
-				1,
-				1,
-				1
-			],
-			"isTransparent": false,
-			"parallaxX": 1,
-			"parallaxY": 1,
-			"scaleRate": 1,
-			"forceOwnTexture": false,
-			"useRenderCells": false,
-			"blendMode": "normal",
-			"global": false
-		},
-		{
-			"name": "Game",
-			"overriden": 0,
-			"instances": [
-				{
-					"type": "GoalArea",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 16,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 547.3181818181821,
-						"y": 407.27272727272725,
-						"width": 106.36363636363637,
-						"height": 30,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "GoalArea",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 15,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 44.59090909090929,
-						"y": 406.3636363636364,
-						"width": 106.36363636363637,
-						"height": 30,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1162,82 +235,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 290.9090909090909,
+						"x": 296.3636363636364,
 						"y": 401.8636363636365,
-						"width": 420.909090909091,
+						"width": 604.5454545454545,
 						"height": 10,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "GoalWall2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 6,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 90.9545454545455,
-						"y": 343.02272519198334,
-						"width": 20,
-						"height": 120,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "GoalWall",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 5,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 491.86363636363643,
-						"y": 341.2045433738014,
-						"width": 20,
-						"height": 120,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1392,8 +393,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 66.40909090909088,
-						"y": 3.636363636363569,
+						"x": 249.13636363636363,
+						"y": 5.454545454545382,
 						"width": 200,
 						"height": 30,
 						"originX": 0,
@@ -1434,22 +435,156 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 6.409090909090992,
-						"y": 2.727272727272748,
+						"x": 180.0454545454546,
+						"y": 3.636363636363626,
 						"width": 79.09090909090912,
 						"height": 30,
 						"originX": 0,
 						"originY": 0,
-=======
-=======
->>>>>>> Stashed changes
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 5,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 297.27272727272737,
+						"y": 74.59090909090912,
+						"width": 100.90909090909093,
+						"height": 33.636363636363654,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 6,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 56.363636363636374,
+						"y": 196.40909090909093,
+						"width": 100.90909090909093,
+						"height": 33.636363636363654,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.7853981633974483,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 7,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 540.0000000000001,
+						"y": 202.7727272727273,
+						"width": 100.90909090909093,
+						"height": 33.636363636363654,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 2.356194490192345,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 8,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
 						"x": 300.0000000000001,
 						"y": 258.22727272727275,
 						"width": 100.90909090909093,
 						"height": 33.636363636363654,
 						"originX": 0.5,
 						"originY": 0.5,
->>>>>>> Stashed changes
 						"color": [
 							1,
 							1,
@@ -1493,5 +628,4 @@
 	"height": 400,
 	"unboundedScrolling": false,
 	"eventSheet": "Event sheet 1"
->>>>>>> a659d9a31fbd6fab44cfbf7753aed28e4d1f25b9
 }
