@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"name": "Event sheet 1",
 	"events": [
@@ -171,4 +172,162 @@
 		}
 	],
 	"sid": 587282074195441
+=======
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 477094501470902
+				},
+				{
+					"id": "is-between-values",
+					"objectClass": "System",
+					"sid": 104223119159831,
+					"parameters": {
+						"value": "Mouse.X",
+						"lower-bound": "147",
+						"upper-bound": "436"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "Player",
+					"sid": 104087911722449,
+					"parameters": {
+						"x": "Mouse.X"
+					}
+				}
+			],
+			"sid": 873676419836956
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Ball",
+					"sid": 988669919380877,
+					"parameters": {
+						"object": "DeathBarrier"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Ball",
+					"sid": 228695951132370
+				}
+			],
+			"sid": 539985813614897
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 254195332164032
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle-of-motion",
+					"objectClass": "Ball",
+					"sid": 929311374090647,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"angle": "random(360)"
+					}
+				}
+			],
+			"sid": 973536142875618
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 367691253397429
+				}
+			],
+			"actions": [],
+			"sid": 408180443792852
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 952460900665691,
+					"parameters": {
+						"interval-seconds": "4.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 810586552795194,
+					"parameters": {
+						"object-to-create": "Ball",
+						"layer": "0",
+						"x": "random(137,458)",
+						"y": "0"
+					}
+				}
+			],
+			"sid": 599891586383967
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Ball",
+					"sid": 444884790090556,
+					"parameters": {
+						"object": "GoalArea"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Ball",
+					"sid": 388194761053900
+				},
+				{
+					"id": "add-to-instvar",
+					"objectClass": "Text",
+					"sid": 811804113907754,
+					"parameters": {
+						"instance-variable": "Value",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Text",
+					"sid": 700396041413994,
+					"parameters": {
+						"text": "Text.Value"
+					}
+				}
+			],
+			"sid": 678487977616395
+		}
+	],
+	"sid": 587282074195441
+>>>>>>> a659d9a31fbd6fab44cfbf7753aed28e4d1f25b9
 }
