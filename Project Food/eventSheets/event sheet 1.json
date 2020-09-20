@@ -84,16 +84,7 @@
 					"sid": 367691253397429
 				}
 			],
-			"actions": [
-				{
-					"id": "set-text",
-					"objectClass": "Text",
-					"sid": 534135289539081,
-					"parameters": {
-						"text": "Mouse.X"
-					}
-				}
-			],
+			"actions": [],
 			"sid": 408180443792852
 		},
 		{
@@ -122,6 +113,44 @@
 				}
 			],
 			"sid": 599891586383967
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Ball",
+					"sid": 444884790090556,
+					"parameters": {
+						"object": "GoalArea"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Ball",
+					"sid": 388194761053900
+				},
+				{
+					"id": "add-to-instvar",
+					"objectClass": "Text",
+					"sid": 811804113907754,
+					"parameters": {
+						"instance-variable": "Value",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Text",
+					"sid": 700396041413994,
+					"parameters": {
+						"text": "Text.Value"
+					}
+				}
+			],
+			"sid": 678487977616395
 		}
 	],
 	"sid": 587282074195441
