@@ -85,7 +85,9 @@
 			"Block6",
 			"Block7",
 			"Sprite",
-			"textStreak"
+			"textStreak",
+			"Lives",
+			"LivePoints"
 		],
 		"subfolders": []
 	},

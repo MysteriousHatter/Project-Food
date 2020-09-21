@@ -1,0 +1,22 @@
+{
+	"name": "LivePoints",
+	"plugin-id": "Text",
+	"sid": 977305613764975,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "varScore",
+			"type": "number",
+			"desc": "",
+			"sid": 326905060102254
+		},
+		{
+			"name": "Lives",
+			"type": "number",
+			"desc": "",
+			"sid": 855422379026453
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

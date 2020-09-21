@@ -66,6 +66,23 @@
 					"parameters": {
 						"text": "textStreak.varStreak"
 					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "LivePoints",
+					"sid": 992987960135315,
+					"parameters": {
+						"instance-variable": "Lives",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "LivePoints",
+					"sid": 890369467141180,
+					"parameters": {
+						"text": "LivePoints.Lives"
+					}
 				}
 			],
 			"sid": 539985813614897
@@ -87,6 +104,23 @@
 					"behaviorType": "Bullet",
 					"parameters": {
 						"angle": "random(360)"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "LivePoints",
+					"sid": 694905846283715,
+					"parameters": {
+						"instance-variable": "Lives",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "LivePoints",
+					"sid": 485500828401663,
+					"parameters": {
+						"text": "LivePoints.Lives"
 					}
 				}
 			],
@@ -120,11 +154,11 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 810586552795194,
+					"sid": 914051925457643,
 					"parameters": {
 						"object-to-create": "Ball",
 						"layer": "0",
-						"x": "random(137,458)",
+						"x": "137",
 						"y": "0"
 					}
 				}
@@ -353,6 +387,75 @@
 				}
 			],
 			"sid": 275777484072166
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "LivePoints",
+					"sid": 233939902537503,
+					"parameters": {
+						"instance-variable": "Lives",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "LivePoints",
+					"sid": 324579324166358,
+					"parameters": {
+						"instance-variable": "Lives",
+						"value": "3"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "LivePoints",
+					"sid": 100016934498633,
+					"parameters": {
+						"text": "LivePoints.Lives"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "textScore",
+					"sid": 809066532123526,
+					"parameters": {
+						"instance-variable": "varScore",
+						"value": "3"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "textScore",
+					"sid": 686654690055482,
+					"parameters": {
+						"text": "textScore.varScore"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "textStreak",
+					"sid": 320321972425195,
+					"parameters": {
+						"instance-variable": "varStreak",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "textStreak",
+					"sid": 196798292914576,
+					"parameters": {
+						"text": "textStreak.varStreak"
+					}
+				}
+			],
+			"sid": 375792811955016
 		}
 	],
 	"sid": 587282074195441
