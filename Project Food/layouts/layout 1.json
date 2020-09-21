@@ -41,6 +41,92 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Text3",
+					"properties": {
+						"text": "Lives:",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 15,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 9,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 294.59090909090907,
+						"y": 3.636363636363626,
+						"width": 51.81818181818187,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text4",
+					"properties": {
+						"text": "0",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 15,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 19,
+					"instanceVariables": {
+						"Value": 0
+					},
+					"behaviors": {},
+					"world": {
+						"x": 360.0454545454545,
+						"y": 9.090909090909122,
+						"width": 16.36363636363643,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 171991067587907,
@@ -393,9 +479,9 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 249.13636363636363,
-						"y": 5.454545454545382,
-						"width": 200,
+						"x": 240.04545454545456,
+						"y": 2.7272727272726627,
+						"width": 16.36363636363643,
 						"height": 30,
 						"originX": 0,
 						"originY": 0,
@@ -435,9 +521,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 180.0454545454546,
-						"y": 3.636363636363626,
-						"width": 79.09090909090912,
+						"x": 175.50000000000003,
+						"y": 4.5454545454545325,
+						"width": 59.926318852834314,
 						"height": 30,
 						"originX": 0,
 						"originY": 0,
@@ -447,7 +533,7 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 6.261933233131611,
 						"zElevation": 0
 					}
 				},

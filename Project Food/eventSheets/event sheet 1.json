@@ -2,155 +2,191 @@
 	"name": "Event sheet 1",
 	"events": [
 		{
-			"eventType": "block",
-			"conditions": [
+			"eventType": "variable",
+			"name": "Lives",
+			"type": "number",
+			"initialValue": "3",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 434723635437345
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Start",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
 				{
-					"id": "every-tick",
-					"objectClass": "System",
-					"sid": 477094501470902
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 418097132244860
+						},
+						{
+							"id": "is-between-values",
+							"objectClass": "System",
+							"sid": 678630583944362,
+							"parameters": {
+								"value": "Mouse.X",
+								"lower-bound": "8",
+								"upper-bound": "591"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-x",
+							"objectClass": "Player",
+							"sid": 471732076325461,
+							"parameters": {
+								"x": "Mouse.X"
+							}
+						}
+					],
+					"sid": 159765006457835
 				},
 				{
-					"id": "is-between-values",
-					"objectClass": "System",
-					"sid": 135755945847845,
-					"parameters": {
-						"value": "Mouse.X",
-						"lower-bound": "8",
-						"upper-bound": "591"
-					}
-				}
-			],
-			"actions": [
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 684635323478845
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle-of-motion",
+							"objectClass": "Ball",
+							"sid": 368719661819425,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"angle": "random(360)"
+							}
+						}
+					],
+					"sid": 525364405989442
+				},
 				{
-					"id": "set-x",
-					"objectClass": "Player",
-					"sid": 104087911722449,
-					"parameters": {
-						"x": "Mouse.X"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 125054564755390
+						}
+					],
+					"actions": [],
+					"sid": 555051539222546
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Ball",
+							"sid": 200113284102084,
+							"parameters": {
+								"object": "GoalArea"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Ball",
+							"sid": 153671282554851
+						},
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Text",
+							"sid": 943064071097865,
+							"parameters": {
+								"instance-variable": "Value",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "Text",
+							"sid": 873088872807387,
+							"parameters": {
+								"text": "Text.Value"
+							}
+						}
+					],
+					"sid": 957125311563909
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 201441627990809,
+							"parameters": {
+								"interval-seconds": "4.0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 852689237821395,
+							"parameters": {
+								"object-to-create": "Ball",
+								"layer": "0",
+								"x": "random(250,260)",
+								"y": "0"
+							}
+						}
+					],
+					"sid": 986297164385804
 				}
 			],
-			"sid": 873676419836956
+			"sid": 370148849237047
 		},
 		{
 			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Ball",
-					"sid": 988669919380877,
-					"parameters": {
-						"object": "DeathBarrier"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "Ball",
-					"sid": 228695951132370
-				}
-			],
+			"conditions": [],
+			"actions": [],
 			"sid": 539985813614897
 		},
 		{
-			"eventType": "block",
-			"conditions": [
+			"eventType": "group",
+			"disabled": false,
+			"title": "Game over",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
 				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 254195332164032
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Ball",
+							"sid": 510351180583068,
+							"parameters": {
+								"object": "DeathBarrier"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Ball",
+							"sid": 999192992709911
+						}
+					],
+					"sid": 240102814125090
 				}
 			],
-			"actions": [
-				{
-					"id": "set-angle-of-motion",
-					"objectClass": "Ball",
-					"sid": 929311374090647,
-					"behaviorType": "Bullet",
-					"parameters": {
-						"angle": "random(360)"
-					}
-				}
-			],
-			"sid": 973536142875618
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "every-tick",
-					"objectClass": "System",
-					"sid": 367691253397429
-				}
-			],
-			"actions": [],
-			"sid": 408180443792852
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "every-x-seconds",
-					"objectClass": "System",
-					"sid": 952460900665691,
-					"parameters": {
-						"interval-seconds": "4.0"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "create-object",
-					"objectClass": "System",
-					"sid": 810586552795194,
-					"parameters": {
-						"object-to-create": "Ball",
-						"layer": "0",
-						"x": "random(137,458)",
-						"y": "0"
-					}
-				}
-			],
-			"sid": 599891586383967
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Ball",
-					"sid": 444884790090556,
-					"parameters": {
-						"object": "GoalArea"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "Ball",
-					"sid": 388194761053900
-				},
-				{
-					"id": "add-to-instvar",
-					"objectClass": "Text",
-					"sid": 811804113907754,
-					"parameters": {
-						"instance-variable": "Value",
-						"value": "1"
-					}
-				},
-				{
-					"id": "set-text",
-					"objectClass": "Text",
-					"sid": 700396041413994,
-					"parameters": {
-						"text": "Text.Value"
-					}
-				}
-			],
-			"sid": 678487977616395
+			"sid": 121613067369901
 		}
 	],
 	"sid": 587282074195441

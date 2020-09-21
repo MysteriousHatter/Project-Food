@@ -84,7 +84,9 @@
 			"Block5",
 			"Block6",
 			"Block7",
-			"Sprite"
+			"Sprite",
+			"Text3",
+			"Text4"
 		],
 		"subfolders": []
 	},

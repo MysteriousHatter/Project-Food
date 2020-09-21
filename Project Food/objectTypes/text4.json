@@ -1,0 +1,16 @@
+{
+	"name": "Text4",
+	"plugin-id": "Text",
+	"sid": 223448454915912,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Value",
+			"type": "number",
+			"desc": "",
+			"sid": 736961341683519
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}
