@@ -1,0 +1,359 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 477094501470902
+				},
+				{
+					"id": "is-between-values",
+					"objectClass": "System",
+					"sid": 135755945847845,
+					"parameters": {
+						"value": "Mouse.X",
+						"lower-bound": "8",
+						"upper-bound": "591"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "Player",
+					"sid": 104087911722449,
+					"parameters": {
+						"x": "Mouse.X"
+					}
+				}
+			],
+			"sid": 873676419836956
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Ball",
+					"sid": 988669919380877,
+					"parameters": {
+						"object": "DeathBarrier"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Ball",
+					"sid": 228695951132370
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "textStreak",
+					"sid": 789327685711767,
+					"parameters": {
+						"instance-variable": "varStreak",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "textStreak",
+					"sid": 808202235286514,
+					"parameters": {
+						"text": "textStreak.varStreak"
+					}
+				}
+			],
+			"sid": 539985813614897
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 254195332164032
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle-of-motion",
+					"objectClass": "Ball",
+					"sid": 929311374090647,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"angle": "random(360)"
+					}
+				}
+			],
+			"sid": 973536142875618
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 367691253397429
+				}
+			],
+			"actions": [],
+			"sid": 408180443792852
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 952460900665691,
+					"parameters": {
+						"interval-seconds": "4.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 810586552795194,
+					"parameters": {
+						"object-to-create": "Ball",
+						"layer": "0",
+						"x": "random(137,458)",
+						"y": "0"
+					}
+				}
+			],
+			"sid": 599891586383967
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Ball",
+					"sid": 444884790090556,
+					"parameters": {
+						"object": "GoalArea"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Ball",
+					"sid": 388194761053900
+				},
+				{
+					"id": "add-to-instvar",
+					"objectClass": "textScore",
+					"sid": 811804113907754,
+					"parameters": {
+						"instance-variable": "varScore",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "textScore",
+					"sid": 700396041413994,
+					"parameters": {
+						"text": "textScore.varScore"
+					}
+				},
+				{
+					"id": "add-to-instvar",
+					"objectClass": "textStreak",
+					"sid": 515304217783883,
+					"parameters": {
+						"instance-variable": "varStreak",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "textStreak",
+					"sid": 347952668407560,
+					"parameters": {
+						"text": "textStreak.varStreak"
+					}
+				}
+			],
+			"sid": 678487977616395
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "textStreak",
+					"sid": 586575572593239,
+					"parameters": {
+						"instance-variable": "varStreak",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-width",
+					"objectClass": "Player",
+					"sid": 307228232813053,
+					"parameters": {
+						"width": "100"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Ball",
+					"sid": 142115629934882,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"speed": "400"
+					}
+				}
+			],
+			"sid": 146804189938557
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "textStreak",
+					"sid": 959458989176479,
+					"parameters": {
+						"instance-variable": "varStreak",
+						"comparison": 4,
+						"value": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-speed",
+					"objectClass": "Ball",
+					"sid": 595629112462562,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"speed": "600"
+					}
+				}
+			],
+			"sid": 518709885565319
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "textStreak",
+					"sid": 380235181145380,
+					"parameters": {
+						"instance-variable": "varStreak",
+						"comparison": 4,
+						"value": "10"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-width",
+					"objectClass": "Player",
+					"sid": 660598538196865,
+					"parameters": {
+						"width": "75"
+					}
+				}
+			],
+			"sid": 691465275377755
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "textStreak",
+					"sid": 457810881371063,
+					"parameters": {
+						"instance-variable": "varStreak",
+						"comparison": 4,
+						"value": "15"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-speed",
+					"objectClass": "Ball",
+					"sid": 275373550149542,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"speed": "800"
+					}
+				}
+			],
+			"sid": 748821352042818
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "textStreak",
+					"sid": 730476081085998,
+					"parameters": {
+						"instance-variable": "varStreak",
+						"comparison": 4,
+						"value": "20"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-width",
+					"objectClass": "Player",
+					"sid": 118785351207297,
+					"parameters": {
+						"width": "50"
+					}
+				}
+			],
+			"sid": 959572157453988
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "textStreak",
+					"sid": 182836167578364,
+					"parameters": {
+						"instance-variable": "varStreak",
+						"comparison": 4,
+						"value": "25"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-speed",
+					"objectClass": "Ball",
+					"sid": 818873424777581,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"speed": "1000"
+					}
+				}
+			],
+			"sid": 275777484072166
+		}
+	],
+	"sid": 587282074195441
+}

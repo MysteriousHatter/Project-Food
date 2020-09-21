@@ -1,0 +1,16 @@
+{
+	"name": "textScore",
+	"plugin-id": "Text",
+	"sid": 162462419520323,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "varScore",
+			"type": "number",
+			"desc": "",
+			"sid": 245299294151004
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}
