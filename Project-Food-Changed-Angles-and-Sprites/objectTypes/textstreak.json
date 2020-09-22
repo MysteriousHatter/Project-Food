@@ -1,0 +1,16 @@
+{
+	"name": "textStreak",
+	"plugin-id": "Text",
+	"sid": 647496927970622,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "varStreak",
+			"type": "number",
+			"desc": "",
+			"sid": 859163002549642
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}
