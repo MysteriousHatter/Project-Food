@@ -16,14 +16,34 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 1260,
+						"height": 710,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "",
+						"originalSource": "C:\\Users\\Sheku\\Desktop\\Game Development\\2D\\Project-Food-master\\Project-Food-Changed-Angles-and-Sprites\\images\\tumblr_mzowiiJo9n1s2b58zo3_1280.jpg",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9688562,
+						"imageSpriteId": 5519399,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9992063492063492,
+								0,
+								0.9992063492063492,
+								0.5,
+								0.9992063492063492,
+								0.9985915492957746,
+								0.5,
+								0.9985915492957746,
+								0,
+								0.9985915492957746,
+								0,
+								0.5
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}

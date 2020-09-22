@@ -15,10 +15,30 @@
 						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "",
+						"originalSource": "C:\\Users\\Sheku\\Desktop\\Game Development\\2D\\Project-Food-master\\Project-Food-Changed-Angles-and-Sprites\\images\\sprite3-animation 1-000.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1238510,
+						"imageSpriteId": 1349462,
+						"collisionPoly": {
+							"points": [
+								0.16899999999999993,
+								0.2139999999999999,
+								0.525,
+								0.371,
+								0.632,
+								0.429,
+								0.78,
+								0.5,
+								0.668,
+								0.668,
+								0.3699999999999999,
+								0.589,
+								0,
+								0.7540000000000001,
+								0,
+								0.52
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}

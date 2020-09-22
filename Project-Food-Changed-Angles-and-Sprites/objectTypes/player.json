@@ -22,14 +22,34 @@
 			{
 				"frames": [
 					{
-						"width": 120,
-						"height": 30,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "",
+						"originalSource": "C:\\Users\\Sheku\\Desktop\\Game Development\\2D\\Project-Food-master\\Project-Food-Changed-Angles-and-Sprites\\images\\sprite2-animation 1-000.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3511986,
+						"imageSpriteId": 1311836,
+						"collisionPoly": {
+							"points": [
+								0.3315,
+								0.23399999999999993,
+								0.5,
+								0.168,
+								0.7299999999999996,
+								0.24349999999999994,
+								0.7604999999999995,
+								0.48249999999999993,
+								0.686999999999999,
+								0.7869999999999993,
+								0.5099999999999998,
+								0.7699999999999997,
+								0.36999999999999994,
+								0.7609999999999997,
+								0.19399999999999995,
+								0.42499999999999993
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}

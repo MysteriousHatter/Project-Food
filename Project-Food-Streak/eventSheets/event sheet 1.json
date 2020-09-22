@@ -100,10 +100,10 @@
 				{
 					"id": "set-angle-of-motion",
 					"objectClass": "Ball",
-					"sid": 929311374090647,
+					"sid": 764787676722597,
 					"behaviorType": "Bullet",
 					"parameters": {
-						"angle": "random(360)"
+						"angle": "45"
 					}
 				},
 				{
@@ -144,9 +144,9 @@
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
-					"sid": 952460900665691,
+					"sid": 383239253878436,
 					"parameters": {
-						"interval-seconds": "4.0"
+						"interval-seconds": "15.0"
 					}
 				}
 			],
@@ -154,12 +154,12 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 914051925457643,
+					"sid": 486420814392211,
 					"parameters": {
 						"object-to-create": "Ball",
 						"layer": "0",
-						"x": "137",
-						"y": "0"
+						"x": "300",
+						"y": "200"
 					}
 				}
 			],
@@ -246,10 +246,10 @@
 				{
 					"id": "set-speed",
 					"objectClass": "Ball",
-					"sid": 142115629934882,
+					"sid": 576347141775097,
 					"behaviorType": "Bullet",
 					"parameters": {
-						"speed": "400"
+						"speed": "200"
 					}
 				}
 			],
@@ -273,10 +273,10 @@
 				{
 					"id": "set-speed",
 					"objectClass": "Ball",
-					"sid": 595629112462562,
+					"sid": 618104833218155,
 					"behaviorType": "Bullet",
 					"parameters": {
-						"speed": "600"
+						"speed": "400"
 					}
 				}
 			],
@@ -326,10 +326,10 @@
 				{
 					"id": "set-speed",
 					"objectClass": "Ball",
-					"sid": 275373550149542,
+					"sid": 417508685298565,
 					"behaviorType": "Bullet",
 					"parameters": {
-						"speed": "800"
+						"speed": "600"
 					}
 				}
 			],
@@ -379,10 +379,10 @@
 				{
 					"id": "set-speed",
 					"objectClass": "Ball",
-					"sid": 818873424777581,
+					"sid": 573969698188211,
 					"behaviorType": "Bullet",
 					"parameters": {
-						"speed": "1000"
+						"speed": "800"
 					}
 				}
 			],
@@ -423,10 +423,10 @@
 				{
 					"id": "set-instvar-value",
 					"objectClass": "textScore",
-					"sid": 809066532123526,
+					"sid": 857784580763545,
 					"parameters": {
 						"instance-variable": "varScore",
-						"value": "3"
+						"value": "0"
 					}
 				},
 				{
@@ -456,6 +456,67 @@
 				}
 			],
 			"sid": 375792811955016
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "textStreak",
+					"sid": 292267315744682,
+					"parameters": {
+						"instance-variable": "varStreak",
+						"comparison": 0,
+						"value": "30"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-speed",
+					"objectClass": "Ball",
+					"sid": 388407456010939,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"speed": "200"
+					}
+				},
+				{
+					"id": "add-to-instvar",
+					"objectClass": "LivePoints",
+					"sid": 713733486186388,
+					"parameters": {
+						"instance-variable": "Lives",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "LivePoints",
+					"sid": 790172246657490,
+					"parameters": {
+						"text": "LivePoints.Lives"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "textStreak",
+					"sid": 690754608219070,
+					"parameters": {
+						"instance-variable": "varStreak",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "textStreak",
+					"sid": 335882236619771,
+					"parameters": {
+						"text": "textStreak.varStreak"
+					}
+				}
+			],
+			"sid": 737694566081998
 		}
 	],
 	"sid": 587282074195441
